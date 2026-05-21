@@ -1,0 +1,41 @@
+{
+  "_comment": "导师库——由用户提供后通过 import_mentor_pool.py 导入。",
+  "mentors": [
+    {
+      "name": "孙总",
+      "dept": "总部",
+      "level": "一级管理者",
+      "expertise": [
+        "专业",
+        "责任",
+        "坚持"
+      ],
+      "remark": "nan",
+      "added_at": "2026-04-28T06:06:02.220603"
+    },
+    {
+      "name": "林总",
+      "dept": "产品中心",
+      "level": "二级管理者",
+      "expertise": [
+        "友好",
+        "利他",
+        "诚信"
+      ],
+      "remark": "nan",
+      "added_at": "2026-04-28T06:06:02.220785"
+    },
+    {
+      "name": "刘老师",
+      "dept": "人力资源中心",
+      "level": "HRBP",
+      "expertise": [
+        "专业",
+        "利他",
+        "勤奋"
+      ],
+      "remark": "nan",
+      "added_at": "2026-04-28T06:06:02.220961"
+    }
+  ]
+}

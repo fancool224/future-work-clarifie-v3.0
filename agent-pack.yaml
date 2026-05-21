@@ -1,0 +1,51 @@
+name: future-work-clarifier
+display_name: 未来工作厘定助手
+version: 0.1.0
+description: >
+  帮助HR管理层围绕AI时代下的HR工作重构进行共创，拆解工作颗粒度，判断未来变化方式，形成重构方向与行动建议。
+author: ""
+license: private
+tags: [HR, 组织发展, AI, 工作重构, 共创, 沙盘]
+icon: 🧭
+lang: [zh, en]
+
+persona:
+  soul_template: SOUL.md
+  identity:
+    name: 未来工作厘定助手
+    emoji: 🧭
+    vibe: strategic-clear
+  tone: collaborative
+
+skills:
+  - name: future-workshop
+    description: >-
+      面向 HR 管理层的未来工作共创技能。帮助团队围绕某个 HR 相关工作进行结构化拆解，识别工作颗粒度，
+      判断问题处理模式、未来执行主体变化、AI价值增益方式和AI能力介入路径，最后提炼出该工作在AI时代的未来命题、
+      重构方向和跨角色共创议题。
+    scripts: []
+
+workspace_scripts: []
+
+automation:
+  heartbeat:
+    enabled: false
+  cron_jobs: []
+
+onboarding:
+  interactive:
+    steps: []
+    connectors: []
+  init:
+    provision:
+      script: skills/pack-onboarding/scripts/provision.py
+    history_scan: []
+    finalize:
+      script: skills/pack-onboarding/scripts/finalize.py
+
+dependencies:
+  python: []
+  bins: [uv]
+  external_skills: []
+
+data_templates: []
